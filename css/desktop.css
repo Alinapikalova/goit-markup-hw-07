@@ -1,7 +1,142 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1393px) {
     .container {
         max-width: 1128px;
         padding: 0 16px;
         margin: 0 auto;
-
     }
+
+    .wrap-adress {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .contact-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .photos {
+        display: flex;
+    }
+
+    .block {
+        padding-top: 188px;
+        padding-bottom: 188px;
+        max-width: 1440px;
+    }
+        .button {
+            margin-top: 48px;
+        }
+    .modal {
+        min-height: 576px;
+        padding: 24px;
+        padding-top: 72px;
+    }
+
+    .block-specifics {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .wrap-specifics {
+        display: flex;
+        flex-direction: initial;
+        align-items: flex-start;
+        flex-wrap: initial;
+        gap: 24px;
+        row-gap: 0;
+    }
+
+    .specifics-card {
+        width: calc((100% - 72px)/4);
+        padding: 0px;
+    }
+
+    .specifics-visual {
+        display: flex;
+    }
+
+    .title-specifics {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        letter-spacing: 0.02em;
+    }
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .title-section {}
+
+    .wrap-team {
+        display: flex;
+        flex-direction: initial;
+        flex-wrap: initial;
+        row-gap: 0;
+        padding: 0;
+    }
+
+    .team-card {
+        width: calc((100% - 72px)/4);
+    }
+
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .customers-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: initial;
+        row-gap: 0;
+        gap: 24px;
+    }
+
+    .customers-item {
+        width: calc((100% - 120px)/6);
+        height: 88px;
+    }
+
+    .page-footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: initial;
+        flex-direction: initial;
+        max-width: 1128px;
+        gap: initial;
+        row-gap: 0;
+    }
+
+    .footer-logo {
+        display: inline-block;
+    }
+
+    .footer-soc-contacts {
+        display: block;
+        margin-left: 120px;
+    }
+
+    .footer-form-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+        gap: 24px;
+        width: auto;
+        margin-left: auto;
+    }
+}
