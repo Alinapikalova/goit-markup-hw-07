@@ -105,12 +105,10 @@
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
-
     }
 
     .button {
         margin-top: 40px;
-
     }
 
     .button:focus {
@@ -126,7 +124,6 @@
         display: flex;
         flex-wrap: wrap;
         gap: 72px;
-
     }
 
     .wrap-specifics {
@@ -165,7 +162,10 @@
 
     .team-card {
         width: calc((100% - 24px)/2);
+    }
 
+    .container-customer {
+        max-width: 552px;
     }
 
     .customers-list {
@@ -181,10 +181,14 @@
     }
 
     .footer-container {
-        display: inline-block;
-        text-align: center;
-        width: 100%;
-
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-width: 552px;
+        gap: 24px;
+        row-gap: 72px;
+        align-items: baseline;
+        padding: 0;
     }
 
     .footer-logo {
@@ -193,17 +197,19 @@
 
     .footer-soc-contacts {
         display: inline-block;
-        margin-left: 24px;
-        padding: 0;
+        margin: 0;
     }
 
     .footer-form-wrap {
         display: flex;
-        justify-content: center;
-        align-items: flex-start;
+        justify-content: flex-start;
+        align-items: flex-end;
+        flex-direction: row;
         position: relative;
+        width: 100%;
         gap: 24px;
-        margin-right: auto;
+        margin: 0;
+        padding: 0;
     }
 
     .footer-wrap-subscribe {
@@ -211,12 +217,14 @@
         flex-direction: column;
         align-items: baseline;
         gap: 16px;
+    }
 
+    .footer-soc-list {
+        transform: translate();
     }
 
     .footer-input-name {
         text-align: start;
-
     }
 
     .footer-input {
@@ -229,3 +237,4 @@
         align-items: flex-end;
         cursor: pointer;
     }
+}
