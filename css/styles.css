@@ -225,7 +225,7 @@ body {
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .block {
-        background-image: var(--hero-gradient), url('../images/people-office-mob-2x.jpg');
+        background-image: var(--hero-gradient), url('../images/people-office-2x.jpg');
     }
 }
 
