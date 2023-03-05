@@ -28,9 +28,19 @@
         max-width: 1440px;
         background-image: var(--hero-gradient), url('../images/people-office.jpg');
     }
-        .button {
-            margin-top: 48px;
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .block {
+            background-image: var(--hero-gradient), url('../images/people-office-2x.jpg');
         }
+    }
+
+    .button {
+        margin-top: 48px;
+    }
+
     .modal {
         min-height: 576px;
         padding: 24px;

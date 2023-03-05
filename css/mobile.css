@@ -20,6 +20,14 @@
         max-width: 428px;
     }
 
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .block {
+            background-image: var(--hero-gradient), url('../images/people-office-mob-2x.jpg');
+        }
+    }
+
     .block-title {
         max-width: 320px;
         height: 80px;
@@ -30,6 +38,7 @@
     .button {
         margin-top: 72px;
     }
+
     .modal {
         min-width: 392px;
         min-height: 586px;
@@ -37,6 +46,7 @@
         padding-top: 72px;
         padding-bottom: 24px;
     }
+
     .specifics-visual {
         display: none;
     }
