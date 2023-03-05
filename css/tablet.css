@@ -87,26 +87,16 @@
     .block {
         padding-top: 112px;
         padding-bottom: 108px;
-        background-color: var(--main-navy);
-        background-image: var(--hero-gradient), url('../images/people-office.jpg');
-        color: var(--main-white);
-        text-align: center;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        max-width: 100%;
-        margin: 0px auto;
+        background-image: var(--hero-gradient), url('../images/people-office-tablet.jpg');
+        max-width: 768px;
     }
 
     .block-title {
         max-width: 496px;
-        height: 120px;
-        font-weight: 700;
+        height: 120px; 
         font-size: 56px;
         line-height: 1.07;
-        letter-spacing: 0.02em;
     }
-
     .button {
         margin-top: 40px;
     }
