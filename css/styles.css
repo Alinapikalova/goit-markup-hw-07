@@ -208,6 +208,26 @@ body {
     color: var(--active-ocean);
 }
 
+.button-menu {
+    color: var(--main-navy);
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+.icon-menu {
+    stroke: currentColor;
+}
+.icon-cross {
+    fill: currentColor;
+}
+.button-menu .icon-cross {
+    display: none;
+}
+.button-menu .icon-cross {
+    display: block;
+}
 .block {
     background-color: var(--main-navy);
     background-image: var(--hero-gradient), url('../images/people-office.jpg');
@@ -221,6 +241,7 @@ body {
     max-width: 1440px;
     margin: 0px auto;
 }
+
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
