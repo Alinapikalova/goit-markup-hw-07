@@ -56,13 +56,65 @@
             </li>
           </ul>
         </address>
-        <button class="button-menu"  type="button" data-menu-button>
-            <svg class="" width="32" height="22"
-            aria-label="button mobile menu for web studio">
-              <use class="icon-menu" href="./images/icons.svg#icon-menu-hamburger"></use>
-              <use class="icon-cross" href="./images/icons.svg#icon-Vector"></use>
-            </svg>
-          </button>
+        <button
+          class="button-menu is-open js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-container"
+        >
+          <svg
+            width="32"
+            height="22"
+            aria-label="button open mobile menu"
+          >
+            <use
+              class="icon-menu"
+              href="./images/icons.svg#icon-menu-hamburger"
+            ></use>
+          </svg>
+        </button>
+      </div>
+      <div class="menu-container is-open js-menu-container" id="menu-container">
+        <button
+          class="button-menu is-open js-close-menu"
+          type="button"
+        >
+          <svg
+    
+            width="32"
+            height="22"
+            aria-label="button close mobile menu"
+          >
+            <use class="icon-cross" href="./images/icons.svg#icon-Vector"></use>
+          </svg>
+        </button>
+        <div class="nav-menu">
+          <ul class="site-nav wrap-header dots">
+            <li>
+              <a href="./index.html" class="nav-link current link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="nav-link link">Portfolio</a>
+            </li>
+            <li><a href="" class="nav-link link">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="contacts-menu">
+          <address class="address">
+          <ul class="wrap-adress dots">
+            <li>
+              <a href="mailto:info@devstudio.com" class="contact-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="contact-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        </div>
       </div>
     </header>
     <main>
@@ -215,13 +267,28 @@
           <h2 class="title-section">What are we doing</h2>
           <ul class="wrap-photos dots">
             <li class="item-photos">
-              <img src="./images/img1.jpg" alt="Foto 1" width="360" />
+              <img
+                srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
+                src="./images/img1.jpg"
+                alt="Foto 1"
+                width="360"
+              />
             </li>
             <li class="item-photos">
-              <img src="./images/img2.jpg" alt="Foto 2" width="360" />
+              <img
+                srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
+                src="./images/img2.jpg"
+                alt="Foto 2"
+                width="360"
+              />
             </li>
             <li class="item-photos">
-              <img src="./images/img3.jpg" alt="Foto 3" width="360" />
+              <img
+                src="./images/img3.jpg"
+                alt="Foto 3"
+                srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
+                width="360"
+              />
             </li>
           </ul>
         </div>
@@ -232,6 +299,7 @@
           <ul class="wrap-team dots">
             <li class="team-card">
               <img
+                srcset="./images/imga.jpg 1x, ./images/imga-2x.jpg 2x"
                 src="./images/imga.jpg"
                 alt="Foto Mark Guerrero"
                 width="264"
@@ -272,7 +340,12 @@
               </div>
             </li>
             <li class="team-card">
-              <img src="./images/imgb.jpg" alt="Foto Tom Ford" width="264" />
+              <img
+                srcset="./images/imgb.jpg 1x, ./images/imgb-2x.jpg 2x"
+                src="./images/imgb.jpg"
+                alt="Foto Tom Ford"
+                width="264"
+              />
               <div class="card-content">
                 <h3 class="title-team">Tom Ford</h3>
                 <p class="text-team">Frontend Developer</p>
@@ -310,6 +383,7 @@
             </li>
             <li class="team-card">
               <img
+                srcset="./images/imgc.jpg 1x, ./images/imgc-2x.jpg 2x"
                 src="./images/imgc.jpg"
                 alt="Foto Camila Garcia"
                 width="264"
@@ -351,6 +425,7 @@
             </li>
             <li class="team-card">
               <img
+                srcset="./images/imgd.jpg 1x, ./images/imgd-2x.jpg 2x"
                 src="./images/imgd.jpg"
                 alt="Foto Daniel Wilson"
                 width="264"
@@ -506,6 +581,13 @@
         </form>
       </div>
     </footer>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

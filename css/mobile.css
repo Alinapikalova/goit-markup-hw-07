@@ -12,7 +12,21 @@
     .address {
         display: none;
     }
-
+/*
+    @media screen and (max-width: 767px) {
+        .menu-container {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 500px;
+        }
+        .menu-container.is-open {
+            display: block;
+        }
+    }
+*/
     .block {
         padding-top: 112px;
         padding-bottom: 112px;
