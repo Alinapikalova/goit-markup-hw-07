@@ -62,11 +62,7 @@
           aria-expanded="false"
           aria-controls="menu-container"
         >
-          <svg
-            width="32"
-            height="22"
-            aria-label="button open mobile menu"
-          >
+          <svg width="32" height="22" aria-label="button open mobile menu">
             <use
               class="icon-menu"
               href="./images/icons.svg#icon-menu-hamburger"
@@ -75,45 +71,77 @@
         </button>
       </div>
       <div class="menu-container is-open js-menu-container" id="menu-container">
-        <button
-          class="button-menu is-open js-close-menu"
-          type="button"
-        >
-          <svg
-    
-            width="32"
-            height="22"
-            aria-label="button close mobile menu"
-          >
+        <button class="button-menu btn-menu-close is-open js-close-menu" type="button">
+          <svg width="8" height="8" aria-label="button close mobile menu">
             <use class="icon-cross" href="./images/icons.svg#icon-Vector"></use>
           </svg>
         </button>
         <div class="nav-menu">
-          <ul class="site-nav wrap-header dots">
+          <ul class="menu-nav wrap-menu dots">
             <li>
-              <a href="./index.html" class="nav-link current link">Studio</a>
+              <a href="./index.html" class="nav-link-menu link">Studio</a>
             </li>
             <li>
-              <a href="./portfolio.html" class="nav-link link">Portfolio</a>
+              <a href="./portfolio.html" class="nav-link-menu link"
+                >Portfolio</a
+              >
             </li>
-            <li><a href="" class="nav-link link">Contacts</a></li>
+            <li>
+              <a href="" class="nav-link-menu current-menu link">Contacts</a>
+            </li>
           </ul>
         </div>
         <div class="contacts-menu">
-          <address class="address">
-          <ul class="wrap-adress dots">
-            <li>
-              <a href="mailto:info@devstudio.com" class="contact-link link"
-                >info@devstudio.com</a
-              >
+          <address class="address-menu">
+            <ul class="wrap-adress-menu dots">
+              <li>
+                <a
+                  href="tel:+110001111111"
+                  class="contact-link-menu current-menu link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="contact-link-menu mail-menu link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="soc-list-menu">
+          <ul class="team-soc-list list dots">
+            <li class="team-soc-item">
+              <a class="team-soc-link link" href="">
+                <svg class="team-soc-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagramteam"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="tel:+110001111111" class="contact-link link"
-                >+11 (000) 111-11-11</a
-              >
+            <li class="team-soc-item">
+              <a class="team-soc-link link" href="">
+                <svg class="team-soc-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitterteam"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-soc-item">
+              <a class="team-soc-link link" href="">
+                <svg class="team-soc-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebookteam"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-soc-item">
+              <a class="team-soc-link link" href="">
+                <svg class="team-soc-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedinteam"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
         </div>
       </div>
     </header>

@@ -83,19 +83,14 @@
     .contact-link:focus {
         color: var(--active-ocean);
     }
-    /*
     .button-menu {
         display: none;
     }
     .menu-container {
-        display: flex;
-        justify-content: space-between;
-        flex-grow: 1;
+        display: none;
     }
-    .menu-container.is-open {
         
     }
-    */
     .block {
         padding-top: 112px;
         padding-bottom: 108px;
