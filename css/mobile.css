@@ -22,6 +22,7 @@
             width: 100%;
             height: 500px;
         }
+
         .menu-container.is-open {
             display: block;
         }
@@ -32,6 +33,7 @@
         padding-bottom: 112px;
         background-image: var(--hero-gradient), url('../images/people-office-mobile.jpg');
         max-width: 428px;
+        max-height: 432px;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -47,6 +49,9 @@
         height: 80px;
         font-size: 36px;
         line-height: 1.11;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 0.02em;
     }
 
     .button {
