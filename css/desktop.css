@@ -4,6 +4,10 @@
         padding: 0 15px;
         margin: 0 auto;
     }
+    .address {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
 
     .wrap-adress {
         display: flex;
