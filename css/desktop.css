@@ -53,7 +53,7 @@
 
     .block-specifics {
         padding-top: 120px;
-        padding-bottom: 120px;
+        padding-bottom: 0;
     }
 
     .wrap-specifics {
@@ -94,6 +94,7 @@
         display: flex;
         flex-direction: initial;
         flex-wrap: initial;
+        width: 100%;
         row-gap: 0;
         padding: 0;
     }

@@ -183,8 +183,13 @@
 
     .wrap-team {
         display: flex;
+        justify-content: space-between;
+        margin: auto;
         flex-direction: row;
         flex-wrap: wrap;
+        padding-left: 0;
+        padding-right: 0;
+        width: 552px;
         gap: 24px;
         row-gap: 64px;
     }
@@ -250,6 +255,9 @@
 
     .footer-soc-list {
         transform: translate();
+    }
+    .footer-soc-header {
+        text-align: start;
     }
 
     .footer-input-name {

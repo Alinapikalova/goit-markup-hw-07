@@ -251,6 +251,7 @@ body {
 }
 
 .menu-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -271,7 +272,7 @@ body {
 }
 
 .menu-container.is-open {
-    display: block;
+    display: flex;
 }
 .menu-container.is-open.logo-header {
     display: none;
