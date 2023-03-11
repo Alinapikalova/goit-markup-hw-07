@@ -201,6 +201,7 @@
     .page-footer {
         padding-top: 96px;
         padding-bottom: 96px;
+        width: 100%;
     }
 
     .footer-container {
@@ -242,9 +243,12 @@
         margin-top: 72px;
         width: 100%;
     }
-    .footer-input {
+    .footer-wrap-subscribe {
+        width: 100%;
 
-        width: calc(100vw - 30px)
+    }
+    .footer-input {
+        width: 100%;
 
     }
 
