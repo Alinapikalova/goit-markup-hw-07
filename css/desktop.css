@@ -30,6 +30,7 @@
         padding-top: 188px;
         padding-bottom: 188px;
         max-width: 1440px;
+        min-height: 600px;
         background-image: var(--hero-gradient), url('../images/people-office.jpg');
     }
 
@@ -43,6 +44,7 @@
 
     .button {
         margin-top: 48px;
+        
     }
 
     .modal {
