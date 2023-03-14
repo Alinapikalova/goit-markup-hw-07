@@ -276,6 +276,7 @@ body {
 
 .menu-container.is-open {
     display: flex;
+    z-index: 100;
 }
 .menu-container.is-open.logo-header {
     display: none;

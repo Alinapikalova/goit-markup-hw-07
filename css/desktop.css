@@ -4,6 +4,7 @@
         padding: 0 15px;
         margin: 0 auto;
     }
+
     .address {
         padding-top: 24px;
         padding-bottom: 24px;
@@ -45,7 +46,7 @@
 
     .button {
         margin-top: 48px;
-        
+
     }
 
     .modal {
@@ -155,5 +156,28 @@
         gap: 24px;
         width: auto;
         margin-left: auto;
+    }
+    /*--------------------------------------*/
+
+    .portfolio {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    .list-filters {
+        margin-bottom: 72px;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+        width: 100%;
+    }
+
+    .project-card {
+        width: calc((100% - 48px)/3);
     }
 }
